@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="style.css">
+	<title>
+		
+	</title>
+</head>
+
+<body>
+	<h1>FRUIT FORM</h1>
+	<div class="division">
+		<div class="fruit">
+			<label for="color" id="color-name">
+				<b>Color</b>
+			</label>
+			<input type="text"
+				id="color"
+				placeholder="Enter color name" />
+		</div>
+		<div class="fruit">
+			<label for="origin" id="place-name">
+				<b>Origin</b>
+			</label>
+			<input type="origin"
+				id="origin"
+				placeholder="Enter the origin" />
+		</div>
+	</div>
+	<div class="division">
+		<div class="fruit">
+			<label for="season" id="season-name">
+				<b>Season</b>
+			</label>
+			<input type="text"
+				id="season"
+				placeholder="Enter the season" />
+		</div>
+        <div class="fruit">
+			<label for="taste" id="taste-name">
+				<b>Taste</b>
+			</label>
+			<input type="taste"
+				id="taste"
+				placeholder="Enter the taste" />
+        </div>
+		</div>
+        <div class="fruit">
+            <label for="seed" id="seed-type">
+                <b>Seed</b>
+            </label>
+            <input type="seed"
+                id="seed"
+                placeholder="does that fruit contain seeds or not" />
+        </div>
+		<button onclick="submit()" id="submit">
+			Submit
+		</button>
+        <div class="container" style="background: #fdc9e0;">
+            <div>
+				<table id="table">
+						<tr>
+							<th>Name of fruit</th>
+							<th>color</th>
+							<th>origin</th>
+							<th>season</th>
+							<th>taste</th>
+							<th>seed</th>
+						</tr>
+					
+				</table>
+			</div>
+    </div>
+	<script src="javascript.js">
+	</script>
+</body>
+</html>

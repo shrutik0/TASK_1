@@ -1,0 +1,68 @@
+body {
+    background-image: linear-gradient(#c9ccfd,#fdc9e0);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+    margin:0px;
+
+}
+.fruit {
+    background-color: #4b6f99;
+    margin: 10px auto;
+    padding: 15px 10px;
+    box-shadow: 2px 5px 10px rgba(0, 0, 0, 0.5);
+}
+
+.fruit {
+    width: 40%;
+    text-align: left;
+    margin-bottom: 25px;
+    font-size: larger;
+}
+.fruit label {
+    display: block;
+    margin-bottom: 10px;
+}
+.fruit input,
+.fruit select,
+.fruit textarea {
+    border: 1px solid #777;
+    border-radius: 2px;
+    font-family: inherit;
+    padding: 10px;
+    display: block;
+    width: 95%;
+    font-size: medium;
+}
+.container {
+    display: grid;
+    height:100vh;
+    
+
+}
+.division {
+display:flex
+}
+button{
+    border-radius: 18px;
+    border: 2px solid black;
+    background-color: rgb(65, 112, 65);
+    padding: 12px;
+    margin-bottom: 12px;
+
+}
+button:hover {
+
+    background-color: #777;
+    transform: scale(1.5);
+}
+table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+  }
+  
+  td, th {
+    border: 1px solid #000;
+    text-align: left;
+    padding: 8px;
+  }
